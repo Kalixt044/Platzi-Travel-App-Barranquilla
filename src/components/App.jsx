@@ -1,8 +1,22 @@
+import { Nav } from "./Nav"
+import { TabBar } from "./TabBar"
+import { Home } from "../templates/Home"
+import { Suggestions } from "../templates/Suggestions"
+import { Featured } from "../templates/Featured"
+import { Footer } from "../templates/Footer"
+
 const App = () => {
   return (
-    <h1 className="text-3xl font-bold text-terciary">
-      Hello World!
-    </h1>
+    <>
+      <Nav />
+      <TabBar />
+      <section>
+        <Home />
+        <Suggestions />
+        <Featured />
+      </section>
+      <Footer />
+    </>
   )
 }
 
