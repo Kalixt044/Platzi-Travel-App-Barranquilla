@@ -10,7 +10,7 @@ const App = () => {
     <>
       <Nav />
       <TabBar />
-      <section className="w-full h-screen">
+      <section>
         <Home />
         <Suggestions />
         <Featured />
