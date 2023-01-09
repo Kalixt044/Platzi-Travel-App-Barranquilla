@@ -1,0 +1,68 @@
+[
+  {
+    "photo": "bali",
+    "name": "Bali",
+    "description": "Escape from the World"
+  },
+  {
+    "photo": "chicago",
+    "name": "Chicago",
+    "description": "Big City"
+  },
+  {
+    "photo": "europe",
+    "name": "Europe",
+    "description": "Turistic Destinations"
+  },
+  {
+    "photo": "iceland",
+    "name": "Iceland",
+    "description": "Beautiful Landscapes"
+  },
+  {
+    "photo": "lA",
+    "name": "Los Angeles",
+    "description": "Big City"
+  },
+  {
+    "photo": "miami",
+    "name": "Miami",
+    "description": "Big City"
+  },
+  {
+    "photo": "newYork",
+    "name": "New York",
+    "description": "Big City"
+  },
+  {
+    "photo": "norway",
+    "name": "Norway",
+    "description": "Beautiful Landscapes"
+  },
+  {
+    "photo": "sanFrancisco",
+    "photoDektop": "sanFranciscoDesktop",
+    "name": "San Francisco",
+    "description": "Big City"
+  },
+  {
+    "photo": "seattle",
+    "name": "Seattle",
+    "description": "Big City"
+  },
+  {
+    "photo": "switzerland",
+    "name": "Switzerland",
+    "description": "Beautiful Landscapes"
+  },
+  {
+    "photo": "sydney",
+    "name": "Sydney",
+    "description": "Beautiful Landscapes"
+  },
+  {
+    "photo": "yosemite",
+    "name": "Yosemite",
+    "description": "Escape from the World"
+  }
+]

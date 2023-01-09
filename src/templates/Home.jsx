@@ -2,7 +2,7 @@ import sanFrancisco from '../assets/img/sanFrancisco.jpg'
 
 const Home = () => {
   return (
-    <div>
+    <div id="Home">
       <div className="w-full h-3/4">
         <div className="w-full h-full flex flex-col absolute space-y-96 py-4 items-center">
           <input className="outline-none px-4 py-2 rounded-full shadow-sm" type="search" placeholder='San Francisco'/>
