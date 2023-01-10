@@ -1,10 +1,10 @@
 import { SearchBar } from '../components/SearchBar'
-import sanFrancisco from '../assets/img/sanFrancisco.jpg'
 import { Button } from '../components/Button'
+import sanFrancisco from '../assets/img/sanFrancisco.jpg'
 
-const Home = () => {
+const Hero = () => {
   return (
-    <div id="Home">
+    <div id="Hero">
       <div className="w-full h-3/4">
         <div className="w-full h-full flex flex-col absolute space-y-96 py-4 items-center">
           <SearchBar name="San Francisco"/>
@@ -18,4 +18,4 @@ const Home = () => {
   )
 }
 
-export { Home }
+export { Hero }

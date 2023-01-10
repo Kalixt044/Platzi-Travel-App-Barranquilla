@@ -1,6 +1,6 @@
 import { Nav } from "../components/Nav"
 import { TabBar } from "../components/TabBar"
-import { Home } from "./Home"
+import { Hero } from "./Hero"
 import { Suggestions } from "./Suggestions"
 import { Featured } from "./Featured"
 import { Footer } from "./Footer"
@@ -11,7 +11,7 @@ const App = () => {
       <Nav />
       <TabBar />
       <section className="w-full h-screen">
-        <Home />
+        <Hero />
         <Suggestions />
         <Featured />
       </section>
