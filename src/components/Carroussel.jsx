@@ -6,13 +6,10 @@ const Carroussel = () => {
     <div className="Carroussel">
       {destinations.map(city => (
         <Card 
-          key={city.id}
+          key={city.photo}
           photo={city.photo}
           name={city.name}
           description={city.description}
-          isEven={
-            city.id % 2 === 0 ? true : false
-          }
         />
       ))}
     </div>
