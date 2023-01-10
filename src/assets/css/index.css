@@ -2,22 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.Carroussel {
+  @apply w-auto h-72 flex items-center mt-6 overflow-x-auto overscroll-x-contain space-x-6;
+}
+
 .Card {
-  @apply w-48 h-64 shadow-md rounded-lg;
-}
-
-.Card__photo {
-  @apply w-full h-3/5 rounded-t-lg bg-cover
-}
-
-.Card__info {
-  @apply w-full h-2/5 rounded-b-lg p-4 bg-secondary
-}
-
-.Card__info__name {
-  @apply text-white font-bold text-lg
-}
-
-.Card__info__description {
-  @apply text-white text-sm
+  @apply w-48 h-64 shadow-md rounded-lg flex-none;
 }

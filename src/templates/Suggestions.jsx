@@ -1,17 +1,10 @@
-import { Card } from '../components/Card'
-import destinations from '../helpers/destinations.json'
+import { Carroussel } from "../components/Carroussel"
 
 const Suggestions = () => {
   return (
-    <div className="p-20" id="Suggestions">
-      {destinations.map(city => (
-        <Card 
-          key={city.photo}
-          photo={city.photo}
-          name={city.name}
-          description={city.description}
-        />
-      ))}
+    <div className="p-6" id="Suggestions">
+      <p className="text-3xl font-semibold text-primary">Recomendados</p>
+      <Carroussel />
     </div>
   )
 }

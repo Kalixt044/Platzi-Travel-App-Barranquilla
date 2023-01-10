@@ -20,7 +20,7 @@
     "description": "Beautiful Landscapes"
   },
   {
-    "photo": "lA",
+    "photo": "LA",
     "name": "Los Angeles",
     "description": "Big City"
   },
@@ -30,7 +30,7 @@
     "description": "Big City"
   },
   {
-    "photo": "newYork",
+    "photo": "new_york",
     "name": "New York",
     "description": "Big City"
   },
