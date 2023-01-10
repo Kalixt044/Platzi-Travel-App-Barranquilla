@@ -2,7 +2,9 @@
   {
     "photo": "bali",
     "name": "Bali",
-    "description": "Escape from the World"
+    "description": "Escape from the World",
+    "details": "2 rooms, bath and kitchen",
+    "featured": true
   },
   {
     "photo": "chicago",
@@ -22,12 +24,16 @@
   {
     "photo": "LA",
     "name": "Los Angeles",
-    "description": "Big City"
+    "description": "Big City",
+    "details": "4 rooms, 3 baths, kitchen and private pool",
+    "featured": true
   },
   {
     "photo": "miami",
     "name": "Miami",
-    "description": "Big City"
+    "description": "Big City",
+    "details": "3 rooms, 2 baths, kitchen and excellent beach view",
+    "featured": true
   },
   {
     "photo": "new_york",
