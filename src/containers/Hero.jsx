@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div id="Hero">
       <div className="w-full h-3/4">
-        <div className="w-full h-full flex flex-col absolute space-y-96 py-4 items-center lg:space-y-0 lg:justify-start lg:items-start lg:pt-48">
+        <div className="w-full h-auto flex flex-col absolute space-y-96 py-4 items-center lg:space-y-0 lg:justify-start lg:items-start lg:pt-48">
           <SearchBar name="San Francisco"/>
           <div className="hidden h-auto w-2/3 lg:flex pb-6">
             <p className="text-4xl ml-16 font-bold text-white">Find more destinations</p>
