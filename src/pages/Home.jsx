@@ -1,4 +1,4 @@
-import { Nav } from "../components/Nav"
+import { NavBar } from "../containers/NavBar"
 import { TabBar } from "../containers/TabBar"
 import { Hero } from "../containers/Hero"
 import { Suggestions } from "../containers/Suggestions"
@@ -9,7 +9,7 @@ import { Footer } from "../containers/Footer"
 const Home = () => {
   return (
     <>
-      <Nav />
+      <NavBar />
       <section className="w-full h-screen">
         <Hero />
         <Suggestions />
