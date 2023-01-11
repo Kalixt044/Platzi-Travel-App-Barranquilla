@@ -9,15 +9,15 @@ import { Footer } from "../containers/Footer"
 const Home = () => {
   return (
     <>
-      <Nav />
-      <TabBar />
       <section className="w-full h-screen">
+        <Nav />
+        <TabBar />
         <Hero />
         <Suggestions />
         <Featured />
         <Faqs />
+        <Footer />
       </section>
-      <Footer />
     </>
   )
 }
