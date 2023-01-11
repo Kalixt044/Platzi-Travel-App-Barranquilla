@@ -55,3 +55,15 @@
     @apply text-sm pl-8 text-white mr-24 font-semibold;
   }  
 }
+
+.FAQ {
+  @apply flex flex-col space-y-4 mt-6;
+
+  p:nth-child(1) {
+    @apply text-xl font-medium text-primary;
+  }
+
+  p:nth-child(2) {
+    @apply text-base;
+  }
+}

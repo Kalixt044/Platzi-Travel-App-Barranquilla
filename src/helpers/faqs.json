@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "faq": "Cancelation Policy",
+    "answer": "For stays of less than a week it is important to notify 3 days in advance, otherwise it will be penalized."
+  },
+  {
+    "id": 2,
+    "faq": "Payment Methods",
+    "answer": "We accept different payment methods: VISA, MasterCard, American Express, Paypal and Binance."
+  },
+  {
+    "id": 3,
+    "faq": "Pets",
+    "answer": "The subject of pets will depend directly on the host."
+  },
+  {
+    "id": 4,
+    "faq": "Security Information",
+    "answer": "All our rooms have insurance in case of accidents."
+  },
+  {
+    "id": 5,
+    "faq": "Long Stays",
+    "answer": "We have stays of up to 3 months, in this case an advance payment of 50% of the rental value is required."
+  }
+]
