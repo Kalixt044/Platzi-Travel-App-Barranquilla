@@ -1,5 +1,5 @@
 import { Nav } from "../components/Nav"
-import { TabBar } from "../components/TabBar"
+import { TabBar } from "../containers/TabBar"
 import { Hero } from "../containers/Hero"
 import { Suggestions } from "../containers/Suggestions"
 import { Featured } from "../containers/Featured"
@@ -9,15 +9,15 @@ import { Footer } from "../containers/Footer"
 const Home = () => {
   return (
     <>
+      <Nav />
       <section className="w-full h-screen">
-        <Nav />
-        <TabBar />
         <Hero />
         <Suggestions />
         <Featured />
         <Faqs />
         <Footer />
       </section>
+      <TabBar />
     </>
   )
 }

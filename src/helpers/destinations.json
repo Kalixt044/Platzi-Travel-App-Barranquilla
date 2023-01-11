@@ -3,13 +3,15 @@
     "photo": "bali",
     "name": "Bali",
     "description": "Escape from the World",
-    "details": "2 rooms, bath and kitchen",
+    "details": "2 rooms, bath, kitchen and private pool",
     "featured": true
   },
   {
     "photo": "chicago",
     "name": "Chicago",
-    "description": "Big City"
+    "description": "Big City",
+    "details": "2 rooms, bath and kitchen",
+    "featured": true
   },
   {
     "photo": "europe",

@@ -8,7 +8,7 @@ const Featured = () => {
       <p className="Section-title pb-6">Featured Destinations</p>
       <div className="w-full h-full flex flex-col items-center justify-center space-y-4">
         {featured.map(city => (
-          <Card key={city.key} name={city.name} photo={city.photo} details={city.details} featured={true} />
+          <Card key={city.name} name={city.name} photo={city.photo} details={city.details} featured={true} />
         ))}
       </div>
     </div>

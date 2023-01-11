@@ -69,7 +69,7 @@
 }
 
 .About {
-  @apply space-y-2 font-semibold;
+  @apply space-y-2 font-semibold mb-16;
   p {
     @apply text-sm text-gray-400;
   }
