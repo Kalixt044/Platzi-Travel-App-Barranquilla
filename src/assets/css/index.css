@@ -11,7 +11,7 @@
 }
 
 .NavBar {
-  @apply w-full h-12 fixed top-0 z-20 left-0 hidden bg-white lg:flex items-center justify-between dark:bg-gray-800 dark:border-b-2 dark:border-gray-400;
+  @apply w-full h-12 fixed top-0 z-20 left-0 hidden bg-white lg:flex items-center justify-between dark:bg-gray-800;
   div:nth-child(1) {
     @apply w-auto h-auto pl-4;
     p {
@@ -34,7 +34,7 @@
 }
 
 .Section-title {
-  @apply text-3xl font-bold text-primary;
+  @apply text-3xl font-bold text-primary dark:text-white;
 }
 
 .Carroussel {
@@ -81,16 +81,16 @@
     @apply lg:col-span-2 lg:row-span-2 lg:h-full lg:w-full;
   }
   p:nth-child(1) {
-    @apply text-3xl px-8 pt-8 pb-2 rounded-lg flex-none font-bold text-white lg:text-5xl lg:pt-24 lg:pb-6;
+    @apply text-3xl px-8 pt-8 pb-2 rounded-lg flex-none font-bold text-white lg:text-5xl lg:pt-24 lg:pb-6 dark:drop-shadow;
   }
 
   p:nth-child(2) {
-    @apply text-sm pl-8 text-white mr-24 font-semibold lg:text-lg;
+    @apply text-sm pl-8 text-white mr-24 font-semibold lg:text-lg dark:drop-shadow;
   }  
 }
 
 .FAQ {
-  @apply flex flex-col space-y-4 mt-6;
+  @apply flex flex-col space-y-4 my-6;
 
   p:nth-child(1) {
     @apply text-xl font-bold text-primary dark:text-white;
@@ -102,7 +102,7 @@
 }
 
 .About {
-  @apply space-y-2 font-semibold mb-16;
+  @apply space-y-2 font-semibold mb-16 md:mb-4;
   p {
     @apply text-sm text-gray-400;
   }
@@ -112,5 +112,5 @@
 }
 
 .TabBar {
-  @apply w-full h-16 bg-white fixed left-0 bottom-0 shadow-md flex justify-evenly items-center lg:hidden dark:bg-gray-800 dark:border-t-2 dark:border-gray-400;
+  @apply w-full h-16 bg-gray-300 fixed left-0 bottom-0 shadow-md flex justify-evenly items-center lg:hidden dark:bg-gray-700;
 }

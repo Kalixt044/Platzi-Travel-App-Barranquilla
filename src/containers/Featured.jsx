@@ -4,7 +4,7 @@ import destinations from "../helpers/destinations.json"
 const Featured = () => {
   const featured = destinations.filter(city => !!city.featured)
   return (
-    <div id="Featured" className="px-6 h-auto w-full">
+    <div id="Featured" className="px-6 h-auto w-full dark:bg-gray-800">
       <p className="Section-title pb-6">Featured Destinations</p>
       <div className="Featured">
         {featured.map(city => (
