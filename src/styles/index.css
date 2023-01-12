@@ -73,7 +73,7 @@
 }
 
 .Card__featured {
-  @apply w-full h-96 bg-chicago bg-cover rounded-xl md:w-3/5 lg:w-full lg:bg-center lg:col-span-3;
+  @apply w-full h-96 bg-cover rounded-xl md:w-3/5 lg:w-full lg:bg-center lg:col-span-3;
   &:nth-child(1) {
     @apply md:w-full lg:col-span-5;
   }

@@ -1,6 +1,5 @@
 import { SearchBar } from '../components/SearchBar'
 import { Button } from '../components/Button'
-import sanFrancisco from '../assets/img/sanFrancisco.jpg'
 
 const Hero = () => {
   return (
@@ -13,8 +12,8 @@ const Hero = () => {
           </div>
           <Button title="Explore" />
         </div>
-        <div className="w-full h-full lg:h-96 lg:bg-sanFranciscoDesktop lg:bg-cover lg:bg-center">
-          <img className="lg:hidden" src={sanFrancisco} alt="San Francisco" />
+        <div className="w-full h-full lg:h-96 lg:bg-[url('./assets/img/sanFranciscoDesktop.jpg')] lg:bg-cover lg:bg-center">
+          <img className="lg:hidden" src="./assets/img/sanFrancisco.jpg" alt="San Francisco" />
         </div>
       </div>
     </div>
