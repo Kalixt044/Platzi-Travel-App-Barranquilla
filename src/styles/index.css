@@ -90,8 +90,8 @@
 }
 
 .FAQ {
-  @apply flex flex-col space-y-4 my-6;
-
+  @apply flex flex-col py-6;
+  
   p:nth-child(1) {
     @apply text-xl font-bold text-primary dark:text-white;
   }
