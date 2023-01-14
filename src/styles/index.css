@@ -45,7 +45,7 @@
   @apply w-48 h-64 shadow-md rounded-lg flex-none transform transition-all hover:-translate-y-4 hover:shadow-xl;
   
   div:nth-child(1) {
-    @apply w-full h-3/5 rounded-t-lg bg-cover;
+    @apply w-full h-3/5 rounded-t-lg bg-cover bg-center;
   }
   
   div:nth-child(2) {

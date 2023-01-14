@@ -12,7 +12,7 @@ const Hero = () => {
           </div>
           <Button title="Explore" />
         </div>
-        <div className="w-full h-full sm:h-72 lg:h-96 sm:bg-[url('/assets/img/sanFranciscoDesktop.jpg')] sm:bg-cover sm:bg-center">
+        <div className="w-full h-full sm:h-72 lg:h-96 sm:bg-[url('/assets/img/sanFranciscoDesktop.webp')] sm:bg-cover sm:bg-center">
           <img className="sm:hidden" src="./assets/img/sanFrancisco.webp" alt="San Francisco" />
         </div>
       </div>
