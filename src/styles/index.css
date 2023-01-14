@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 .SearchBar {
-  @apply outline-none px-4 py-1 rounded-full text-base shadow-sm transition duration-300 focus-within:shadow-sm focus:ring-2 focus:w-11/12 lg:hidden;
+  @apply outline-none px-4 py-1 rounded-full text-base shadow-sm transition duration-300 focus-within:shadow-sm focus:ring-2 focus:w-10/12 sm:hidden;
 }
 
 .Button {
- @apply w-28 rounded-full bg-white text-lg text-primary font-semibold px-4 py-2 shadow-sm transition duration-500 ease-in-out hover:bg-primary hover:text-white transform hover:-translate-y-1 lg:ml-16; 
+ @apply w-28 rounded-full bg-white text-lg text-primary font-semibold px-4 py-2 shadow-sm transition duration-500 ease-in-out hover:bg-primary hover:text-white transform hover:-translate-y-1 sm:ml-16; 
 }
 
 .NavBar {
@@ -30,15 +30,11 @@
 }
 
 .Hero {
-  @apply w-full h-auto flex flex-col absolute space-y-96 py-4 items-center lg:space-y-0 lg:justify-start lg:items-start lg:pt-48;
+  @apply w-full h-full absolute flex flex-col py-4 items-center justify-between sm:space-y-0 sm:justify-start sm:items-start sm:pt-24 lg:pt-48;
 }
 
 .Section-title {
   @apply text-3xl font-bold text-primary dark:text-white;
-}
-
-.Carroussel {
-  @apply w-auto h-72 flex items-center mt-6 overflow-x-auto overscroll-x-contain space-x-6;
 }
 
 .Featured {
