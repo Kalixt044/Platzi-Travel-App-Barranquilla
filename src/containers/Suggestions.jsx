@@ -1,4 +1,3 @@
-import { Carroussel } from "../components/Carroussel"
 import { Carousel } from "./Carousel"
 
 const Suggestions = () => {
