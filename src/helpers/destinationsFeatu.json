@@ -1,0 +1,31 @@
+[
+        {
+      "photo": "bq",
+      "name": "Night party",
+      "description": "Escape from the World",
+      "details": "Entertainment, exclusive places",
+      "featured": true
+    },
+    {
+      "photo": "chicago",
+      "name": "Business Center",
+      "description": "North Coast Business Center",
+      "details": "North Coast Business Center",
+      "featured": true
+    },
+ 
+    {
+      "photo": "seattle",
+      "name": "Convention Centers",
+      "description": "Big City",
+      "details": "Big City",
+      "featured": true
+    },
+    {
+      "photo": "sydney",
+      "name": "booking",
+      "description": "Big City",
+      "details": "Wide hotel option",
+      "featured": true
+    }
+]

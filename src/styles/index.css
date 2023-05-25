@@ -7,7 +7,7 @@
 }
 
 .Button {
- @apply w-28 rounded-full bg-white text-lg text-primary font-semibold px-4 py-2 shadow-sm transition duration-500 ease-in-out hover:bg-primary hover:text-white transform hover:-translate-y-1 sm:ml-16; 
+ @apply w-28 rounded-full bg-white text-lg text-primary font-semibold px-4 py-2 shadow-sm transition duration-500 ease-in-out hover:bg-primary hover:text-white transform hover:-translate-y-1 sm:ml-16 rounded float-right; 
 }
 
 .NavBar {

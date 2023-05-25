@@ -12,7 +12,7 @@ const NavBar = () => {
   return (
     <nav className="NavBar">
       <div>
-        <p>Travel APP</p>
+        <p>Platzi Travel App-Barranquilla</p>
       </div>
       <div>
         <a href="#Hero">Home</a>

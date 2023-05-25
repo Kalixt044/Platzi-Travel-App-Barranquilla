@@ -1,6 +1,6 @@
 const Card = ({photo, name, description, featured, details}) => {
   const cardBg = {
-    backgroundImage: `url('./assets/img/${photo}.webp')`
+    backgroundImage: `url('./assets/img/${photo}.jpg')`
   }
 
   if (!featured) {

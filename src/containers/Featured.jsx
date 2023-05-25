@@ -1,5 +1,5 @@
 import { Card } from "../components/Card"
-import destinations from "../helpers/destinations.json"
+import destinations from "../helpers/destinationsfeatu.json"
 
 const Featured = () => {
   const featured = destinations.filter(city => !!city.featured)

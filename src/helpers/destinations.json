@@ -1,76 +1,49 @@
 [
   {
-    "photo": "bali",
-    "name": "Bali",
-    "description": "Escape from the World",
-    "details": "2 rooms, bath, kitchen and private pool",
-    "featured": true
-  },
-  {
-    "photo": "chicago",
-    "name": "Chicago",
-    "description": "Big City",
-    "details": "2 rooms, bath and kitchen",
-    "featured": true
-  },
-  {
-    "photo": "europe",
-    "name": "Europe",
-    "description": "Turistic Destinations"
-  },
-  {
-    "photo": "iceland",
-    "name": "Iceland",
-    "description": "Beautiful Landscapes"
-  },
-  {
-    "photo": "LA",
-    "name": "Los Angeles",
-    "description": "Big City",
-    "details": "4 rooms, 3 baths, kitchen and private pool",
-    "featured": true
-  },
-  {
-    "photo": "miami",
-    "name": "Miami",
-    "description": "Big City",
-    "details": "3 rooms, 2 baths, kitchen and excellent beach view",
-    "featured": true
-  },
-  {
     "photo": "new_york",
-    "name": "New York",
+    "name": "The world's window",
     "description": "Big City"
   },
   {
+    "photo": "europe",
+    "name": "Art Deco",
+    "description": "Architecture"
+  },
+  {
     "photo": "norway",
-    "name": "Norway",
-    "description": "Beautiful Landscapes"
+    "name": "Great Pier",
+    "description": "River lookout"
   },
   {
     "photo": "sanFrancisco",
     "photoDektop": "sanFranciscoDesktop",
-    "name": "San Francisco",
-    "description": "Big City"
+    "name": "Historical Center",
+    "description": "Culture"
   },
   {
-    "photo": "seattle",
-    "name": "Seattle",
-    "description": "Big City"
+    "photo": "rt",
+    "name": "Hotels",
+    "description": "Hotel option"
   },
   {
     "photo": "switzerland",
-    "name": "Switzerland",
-    "description": "Beautiful Landscapes"
+    "name": "Hotels",
+    "description": "Hotel option"
   },
   {
-    "photo": "sydney",
-    "name": "Sydney",
-    "description": "Beautiful Landscapes"
+    "photo": "rh",
+    "name": "B/quilla-Curramba",
+    "description": "B/quilla's Carnival",
+    "Planes": "Comparsa de Carnaval"
   },
   {
     "photo": "yosemite",
-    "name": "Yosemite",
-    "description": "Escape from the World"
+    "name": "know more about the city",
+    "description": "The World"
+  },
+  {
+    "photo": "iceland",
+    "name": "Sport",
+    "description": "Home of the Colombian National Soccer Team"
   }
 ]
